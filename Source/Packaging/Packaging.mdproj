@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E58E2624-4804-4B95-A10A-956CB383719E}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Tarball">
+          <Builder TargetDirectory="..\..\Packages" DefaultConfiguration="Release|x86" ctype="TarballDeployTarget">
+            <ChildEntries>
+              <SolutionItemReference path="..\LogEater\LogEater.csproj" />
+            </ChildEntries>
+            <RootEntry path="..\LogEater.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

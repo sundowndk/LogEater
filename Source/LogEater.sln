@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEater", "LogEater\LogEater.csproj", "{3A14670D-C1B2-4ADA-B484-318E338FC985}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packaging", "Packaging\Packaging.mdproj", "{E58E2624-4804-4B95-A10A-956CB383719E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A14670D-C1B2-4ADA-B484-318E338FC985}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A14670D-C1B2-4ADA-B484-318E338FC985}.Debug|x86.Build.0 = Debug|Any CPU
+		{3A14670D-C1B2-4ADA-B484-318E338FC985}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A14670D-C1B2-4ADA-B484-318E338FC985}.Release|x86.Build.0 = Release|Any CPU
+		{E58E2624-4804-4B95-A10A-956CB383719E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E58E2624-4804-4B95-A10A-956CB383719E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = LogEater\LogEater.csproj
+	EndGlobalSection
+EndGlobal
